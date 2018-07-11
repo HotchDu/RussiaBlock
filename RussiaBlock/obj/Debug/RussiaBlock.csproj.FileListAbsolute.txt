@@ -1,0 +1,9 @@
+D:\Learning\C#\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.exe.config
+D:\Learning\C#\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.exe
+D:\Learning\C#\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.pdb
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csprojResolveAssemblyReference.cache
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Form1.resources
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Properties.Resources.resources
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.GenerateResource.Cache
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.exe
+D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.pdb
