@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CellPositon.cs" />
     <Compile Include="Entities\Ground.cs" />
     <Compile Include="Entities\Shape.cs" />
+    <Compile Include="Entities\ShapeL.cs" />
+    <Compile Include="Entities\ShapeT.cs" />
     <Compile Include="Entities\ShapeUnit.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

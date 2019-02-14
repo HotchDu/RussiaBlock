@@ -23,6 +23,7 @@ namespace RussiaBlock.Util
             set { colCount = value; }
         }
 
+        //单元格的宽高
         static int cellWidth;
         public static int CellWidth
         {

@@ -26,16 +26,14 @@ namespace RussiaBlock
         /// <param name="e"></param>
         private void btnStart_Click(object sender, EventArgs e)
         {
-            Graphics g = pnlGame.CreateGraphics();        
+            Graphics g = pnlGame.CreateGraphics(); 
+                  
             Entities.Ground ground = new Entities.Ground();
             ground.DrawGround(g);
 
-            Entities.Shape shape = new Entities.Shape();
+            Entities.Shape shape = new Entities.ShapeL();
+            // shape.SetUnits();
             shape.DrawShape(g);
-            //g.DrawRectangle(new Pen(Color.Red),0,0,100,100);
-            //g.DrawEllipse(Pens.Blue, 20, 20, 40, 40);
-            //fill 可以绘制内部填充
-            //g.FillRectangle(new SolidBrush(Color.White), 0, 0, 30, 30);
         }
     }
 }

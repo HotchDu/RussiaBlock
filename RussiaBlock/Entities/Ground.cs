@@ -11,7 +11,6 @@ namespace RussiaBlock.Entities
     {
         public void DrawGround(Graphics g)
         {
-
             //画图，完成表格的绘画
             for (int rowIndex = 0; rowIndex < Util.CommonHelper.RowCount; rowIndex++)
             {
@@ -19,6 +18,7 @@ namespace RussiaBlock.Entities
                 {
                     //水平坐标与列相关  竖直坐标与行相关
                     g.DrawRectangle(new Pen(Util.CommonHelper.DefaultGirdColor), colIndex * Util.CommonHelper.CellWidth, rowIndex * Util.CommonHelper.CellWidth, Util.CommonHelper.CellWidth, Util.CommonHelper.CellWidth);
+                    //完成网格的绘画，为何要填充？有无必要？
                     g.FillRectangle(new SolidBrush(Util.CommonHelper.DefaultbgColor), colIndex * Util.CommonHelper.CellWidth + 1, rowIndex * Util.CommonHelper.CellWidth + 1, Util.CommonHelper.CellWidth - 1, Util.CommonHelper.CellWidth - 1);
                 }
             }
