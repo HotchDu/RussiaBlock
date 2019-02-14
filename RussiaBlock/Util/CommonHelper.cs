@@ -9,47 +9,25 @@ namespace RussiaBlock.Util
 {
     class CommonHelper
     {
-        static int rowCount = 20;    
-
+        static int rowCount = 20;
         public static int RowCount
         {
-            get
-            {
-                return rowCount;
-            }
-
-            set
-            {
-                rowCount = value;
-            }
+            get { return rowCount; }
+            set { rowCount = value; }
         }
 
         static int colCount = 16;
         public static int ColCount
         {
-            get
-            {
-                return colCount;
-            }
-
-            set
-            {
-                colCount = value;
-            }
+            get { return colCount; }
+            set { colCount = value; }
         }
 
         static int cellWidth;
         public static int CellWidth
         {
-            get
-            {
-                return cellWidth;
-            }
-
-            set
-            {
-                cellWidth = value;
-            }
+            get { return cellWidth; }
+            set { cellWidth = value; }
         }
 
 
@@ -57,81 +35,41 @@ namespace RussiaBlock.Util
         static Color defaultGirdColor = Color.Black;
         public static Color DefaultGirdColor
         {
-            get
-            {
-                return defaultGirdColor;
-            }
-
-            set
-            {
-                defaultGirdColor = value;
-            }
+            get { return defaultGirdColor; }
+            set { defaultGirdColor = value; }
         }
 
         //默认背景色
         static Color defaultbgColor = Color.White;
         public static Color DefaultbgColor
         {
-            get
-            {
-                return defaultbgColor;
-            }
-
-            set
-            {
-                defaultbgColor = value;
-            }
+            get { return defaultbgColor; }
+            set { defaultbgColor = value; }
         }
 
         //默认的形状色
         static Color defaultShapeColor = Color.SkyBlue;
         public static Color DefaultShapeColor
         {
-            get
-            {
-                return defaultShapeColor;
-            }
-
-            set
-            {
-                defaultShapeColor = value;
-            }
+            get { return defaultShapeColor; }
+            set { defaultShapeColor = value; }
         }
 
         //默认的障碍色
         static Color defaultObstacleColor = Color.Yellow;
         public static Color DefaultObstacleColor
         {
-            get
-            {
-                return defaultObstacleColor;
-            }
-
-            set
-            {
-                defaultObstacleColor = value;
-            }
+            get { return defaultObstacleColor; }
+            set { defaultObstacleColor = value; }
         }
 
         //形状出现时的中间坐标
         static int midIndex;
         public static int MidIndex
         {
-            get
-            {
-                return midIndex;
-            }
-
-            set
-            {
-                midIndex = value;
-            }
+            get { return midIndex; }
+            set { midIndex = value; }
         }
-
-        
-
-
-
 
         /// <summary>
         /// 计算整个游戏中公用值
@@ -146,6 +84,7 @@ namespace RussiaBlock.Util
             int h = height / rowCount;
             //确保图形的大小统一
             cellWidth = w > h ? h : w;
+            //cellWidth * colCount + 1  为什么+1？返回的是容器的大小，图形从内部开始绘画，增大容器
             return new Size(cellWidth * colCount + 1, cellWidth * rowCount + 1);
         }
 

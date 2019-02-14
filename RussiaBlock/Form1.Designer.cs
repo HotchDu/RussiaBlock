@@ -44,9 +44,9 @@
             // 
             // pnlGame
             // 
-            this.pnlGame.Location = new System.Drawing.Point(0, 30);
+            this.pnlGame.Location = new System.Drawing.Point(18, 30);
             this.pnlGame.Name = "pnlGame";
-            this.pnlGame.Size = new System.Drawing.Size(513, 603);
+            this.pnlGame.Size = new System.Drawing.Size(481, 603);
             this.pnlGame.TabIndex = 1;
             // 
             // Form1
@@ -57,7 +57,7 @@
             this.Controls.Add(this.pnlGame);
             this.Controls.Add(this.btnStart);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "RussiaBlock";
             this.ResumeLayout(false);
 
         }
