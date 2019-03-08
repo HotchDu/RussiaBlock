@@ -12,29 +12,15 @@ namespace RussiaBlock.Entities
 
         public int RowIndex
         {
-            get
-            {
-                return rowIndex;
-            }
-
-            set
-            {
-                rowIndex = value;
-            }
+            get { return rowIndex; }
+            set { rowIndex = value; }
         }
 
         int colIndex;
         public int ColIndex
         {
-            get
-            {
-                return colIndex;
-            }
-
-            set
-            {
-                colIndex = value;
-            }
+            get { return colIndex; }
+            set { colIndex = value; }
         }
     }
 }

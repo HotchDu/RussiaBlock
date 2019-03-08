@@ -39,8 +39,7 @@ namespace RussiaBlock.Entities
             for (int i = 0; i < this.units.Length; i++)
             {
                 units[i].DrawUnit(g);
-            }
-            
+            }          
         }
     }
 }

@@ -26,14 +26,10 @@ namespace RussiaBlock
         /// <param name="e"></param>
         private void btnStart_Click(object sender, EventArgs e)
         {
-            Graphics g = pnlGame.CreateGraphics(); 
-                  
-            Entities.Ground ground = new Entities.Ground();
-            ground.DrawGround(g);
-
-            Entities.Shape shape = new Entities.ShapeL();
-            // shape.SetUnits();
-            shape.DrawShape(g);
+            //Graphics g = pnlGame.CreateGraphics(); 
+            GameController.GameControl gc = new GameController.GameControl();
+                
+            
         }
     }
 }

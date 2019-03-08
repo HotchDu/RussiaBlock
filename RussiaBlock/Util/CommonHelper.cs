@@ -9,6 +9,7 @@ namespace RussiaBlock.Util
 {
     class CommonHelper
     {
+        //规定行数
         static int rowCount = 20;
         public static int RowCount
         {
@@ -16,6 +17,7 @@ namespace RussiaBlock.Util
             set { rowCount = value; }
         }
 
+        //规定列数
         static int colCount = 16;
         public static int ColCount
         {
@@ -30,7 +32,6 @@ namespace RussiaBlock.Util
             get { return cellWidth; }
             set { cellWidth = value; }
         }
-
 
         //默认网格色
         static Color defaultGirdColor = Color.Black;
@@ -73,10 +74,10 @@ namespace RussiaBlock.Util
         }
 
         /// <summary>
-        /// 计算整个游戏中公用值
+        /// 计算整个游戏中公用值，根据行数和列数来调节容器的大小
         /// </summary>
-        /// <param name="width"></param>
-        /// <param name="height"></param>
+        /// <param name="width">表格的宽</param>
+        /// <param name="height">表格的高</param>
         public static Size SetValue(int width, int height)
         {
             MidIndex = ColCount / 2;

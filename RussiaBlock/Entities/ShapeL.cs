@@ -8,6 +8,7 @@ namespace RussiaBlock.Entities
 {
     class ShapeL : Shape
     {
+        //抽象类必须在子类中override，如果未被override，则也需要为抽象类
         public override void SetUnits()
         {
             Units[0].Position = new CellPositon() { RowIndex = 0, ColIndex = Util.CommonHelper.MidIndex };

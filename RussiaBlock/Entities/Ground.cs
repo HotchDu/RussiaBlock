@@ -9,9 +9,12 @@ namespace RussiaBlock.Entities
 {
     class Ground
     {
+        /// <summary>
+        /// //画图，完成表格的绘画
+        /// </summary>
+        /// <param name="g">画笔</param>
         public void DrawGround(Graphics g)
-        {
-            //画图，完成表格的绘画
+        {           
             for (int rowIndex = 0; rowIndex < Util.CommonHelper.RowCount; rowIndex++)
             {
                 for (int colIndex = 0; colIndex < Util.CommonHelper.ColCount; colIndex++)
