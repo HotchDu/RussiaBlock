@@ -26,9 +26,10 @@ namespace RussiaBlock
         /// <param name="e"></param>
         private void btnStart_Click(object sender, EventArgs e)
         {
-            //Graphics g = pnlGame.CreateGraphics(); 
-            GameController.GameControl gc = new GameController.GameControl();
-                
+            Graphics g = pnlGame.CreateGraphics(); 
+            //GameController.GameControl gc = new GameController.GameControl();
+            
+               
             
         }
     }

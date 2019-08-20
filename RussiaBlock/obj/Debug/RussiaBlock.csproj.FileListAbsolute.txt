@@ -7,3 +7,10 @@ D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Properties.Resource
 D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.GenerateResource.Cache
 D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.exe
 D:\Learning\C#\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.pdb
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csprojAssemblyReference.cache
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Form1.resources
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Properties.Resources.resources
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.GenerateResource.cache
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.CoreCompileInputs.cache
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.exe
+D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.pdb
