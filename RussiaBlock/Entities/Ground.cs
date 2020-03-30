@@ -10,7 +10,7 @@ namespace RussiaBlock.Entities
     class Ground
     {
         /// <summary>
-        /// //画图，完成表格的绘画
+        /// 画图，完成背景表格的绘画
         /// </summary>
         /// <param name="g">画笔</param>
         public void DrawGround(Graphics g)

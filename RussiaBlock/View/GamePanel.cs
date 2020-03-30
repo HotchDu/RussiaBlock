@@ -11,7 +11,6 @@ namespace RussiaBlock.View
     {
          
         Graphics g;
-
         public Graphics G
         {
             get

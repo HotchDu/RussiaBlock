@@ -15,7 +15,7 @@ namespace RussiaBlock.Entities
             {
                 units[i] = new ShapeUnit();
             }
-            //只有子类对象的创建能够调用到这个构造函数，也就意味着真正调用这个方法是子类对象，根绝堕胎的原理，会调用子类已经重写的方法
+            //只有子类对象的创建能够调用到这个构造函数，也就意味着真正调用这个方法是子类对象，根绝多态的原理，会调用子类已经重写的方法
             SetUnits();
         }
         ShapeUnit[] units = new ShapeUnit[4];

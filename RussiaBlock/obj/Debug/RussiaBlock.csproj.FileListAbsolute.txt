@@ -14,3 +14,12 @@ D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.Gene
 D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.CoreCompileInputs.cache
 D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.exe
 D:\Project\RussiaBlock\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.pdb
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csprojAssemblyReference.cache
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Form1.resources
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.Properties.Resources.resources
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.csproj.GenerateResource.cache
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.exe
+D:\Project2020\RussiaBlock\RussiaBlock\obj\Debug\RussiaBlock.pdb
+D:\Project2020\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.exe.config
+D:\Project2020\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.exe
+D:\Project2020\RussiaBlock\RussiaBlock\bin\Debug\RussiaBlock.pdb
