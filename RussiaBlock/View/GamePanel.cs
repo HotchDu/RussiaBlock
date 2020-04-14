@@ -9,7 +9,12 @@ namespace RussiaBlock.View
 {
     class GamePanel
     {
-         
+        IntPtr intptr;
+        public GamePanel(IntPtr intptr)
+        {
+            this.intptr = intptr;
+        }
+
         Graphics g;
         public Graphics G
         {
@@ -17,7 +22,7 @@ namespace RussiaBlock.View
             {
                 if(g == null)
                 {
-
+                    g = Graphics.FromHwnd(intptr);
                 }
                 return g;
             }

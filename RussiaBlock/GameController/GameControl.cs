@@ -17,8 +17,8 @@ namespace RussiaBlock.GameController
         {
             Entities.Ground ground = new Entities.Ground();
             Entities.Shape shape = new Entities.ShapeL();
-            //View.GamePanel gp = new View.GamePanel(intptr);
-            //gp.ReDisplay(ground, shape);
+            View.GamePanel gp = new View.GamePanel(intptr);
+            gp.ReDisplay(ground, shape);
         }
     }
 }

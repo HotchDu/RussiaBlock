@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RussiaBlock.Entities
 {
     //对结构的学习，此处使用结构存在问题，需要关注
-    struct CellPositon
+    class CellPositon
     {
         int rowIndex;
 
